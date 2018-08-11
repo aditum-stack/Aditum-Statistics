@@ -4,6 +4,7 @@
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
         <option name="externalProjectPath" value="D:\scala\MyScala" />
+        <option name="useAutoImport" value="true" />
       </SbtProjectSettings>
     </option>
   </component>

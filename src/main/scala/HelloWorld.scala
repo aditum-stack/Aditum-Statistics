@@ -1,10 +1,17 @@
+import java.io.{File, InputStreamReader}
+
+import com.sun.imageio.plugins.common.ReaderUtil
+
 object HelloWorld {
-  def main(args: Array[String]) {
+
+  def main(args: Array[String]): Unit = {
     println("Hello World")
-    hello(3)
+    println(hello(3))
   }
 
-  def hello(value: Int) {
-     s"hello"+value
+  def hello(value: Int): String = {
+    s"hello" + value
   }
 }
+
+
