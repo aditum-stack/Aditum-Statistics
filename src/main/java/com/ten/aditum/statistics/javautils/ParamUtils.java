@@ -1,8 +1,8 @@
 package com.ten.aditum.statistics.javautils;
 
-import com.tosit.project.conf.ConfigurationManager;
-import com.tosit.project.constants.Constants;
-import com.tosit.project.exception.ParameterException;
+import com.ten.aditum.statistics.conf.ConfigurationManager;
+import com.ten.aditum.statistics.constants.Constants;
+import com.ten.aditum.statistics.exception.ParameterException;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -23,7 +23,7 @@ public class ParamUtils {
     public static Long getTaskIdFromArgs(String[] args, String taskType) {
         boolean local = ConfigurationManager.getBoolean(Constants.SPARK_LOCAL);
         if (local) {
-            return  Long.valueOf(args[0]);
+            return Long.valueOf(args[0]);
         }
 
         return 1L;

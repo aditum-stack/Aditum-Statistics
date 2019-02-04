@@ -7,9 +7,9 @@ package com.ten.aditum.statistics.dao.impl;
  * Copyright © Wanghan SCU. All Rights Reserved
  */
 
-import com.tosit.project.dao.ITaskDAO;
-import com.tosit.project.domain.Task;
-import com.tosit.project.jdbc.JDBCHelper;
+import com.ten.aditum.statistics.dao.ITaskDAO;
+import com.ten.aditum.statistics.domain.Task;
+import com.ten.aditum.statistics.jdbc.JDBCHelper;
 
 import java.sql.ResultSet;
 
@@ -20,6 +20,7 @@ public class TaskDAOImpl implements ITaskDAO {
      * @param taskId
      * @return
      */
+    @Override
     public Task findById(long taskId) {
         final Task task = new Task();
         String sql = "SELECT * FROM task WHERE task_id= ?";
@@ -27,14 +28,15 @@ public class TaskDAOImpl implements ITaskDAO {
 
         JDBCHelper jdbcHelper = JDBCHelper.getInstanse();
         jdbcHelper.executeQuery(sql, params, new JDBCHelper.QueryCallback() {
+            @Override
             public void process(ResultSet rs) throws Exception {
                 if (rs.next()) {
                     long taskId = rs.getLong(1);
                     String taskName = rs.getString(2);
                     String createTime = rs.getString(3);
                     String startTime = rs.getString(4);
-                    String finishTime =rs.getString(5);
-                    String taskType =rs.getString(6);
+                    String finishTime = rs.getString(5);
+                    String taskType = rs.getString(6);
                     String taskStatus = rs.getString(7);
                     String taskParam = rs.getString(8);
                     task.setTaskId(taskId);

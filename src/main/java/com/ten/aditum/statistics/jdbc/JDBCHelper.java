@@ -1,7 +1,7 @@
 package com.ten.aditum.statistics.jdbc;
 
-import com.tosit.project.conf.ConfigurationManager;
-import com.tosit.project.constants.Constants;
+import com.ten.aditum.statistics.conf.ConfigurationManager;
+import com.ten.aditum.statistics.constants.Constants;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,14 +11,13 @@ import java.util.LinkedList;
 
 /**
  * JDBC辅助组件
- *
+ * <p>
  * 在正式的项目的代码编写过程中，是完全严格按照大公司的coding标准来的
  * 也就是说，在代码中，是不能出现任何hard code（硬编码）的字符
  * 比如“张三”、“com.mysql.jdbc.Driver”
  * 所有这些东西，都需要通过常量来封装和使用
  *
  * @author zhuhongjin
- *
  */
 public class JDBCHelper {
 
@@ -53,10 +52,11 @@ public class JDBCHelper {
     // 为了保证数据库连接池有且仅有一份，所以就通过单例的方式
     // 保证JDBCHelper只有一个实例，实例中只有一份数据库连接池
     private static JDBCHelper instanse = null;
-    public static JDBCHelper getInstanse(){
-        if (instanse == null){
-            synchronized (JDBCHelper.class){
-                if (instanse == null){
+
+    public static JDBCHelper getInstanse() {
+        if (instanse == null) {
+            synchronized (JDBCHelper.class) {
+                if (instanse == null) {
                     instanse = new JDBCHelper();
                 }
             }
@@ -69,15 +69,13 @@ public class JDBCHelper {
     private LinkedList<Connection> datasource = new LinkedList<Connection>();
 
     /**
-     *
      * 第三步：实现单例的过程中，创建唯一的数据库连接池
-     *
+     * <p>
      * 私有化构造方法
-     *
+     * <p>
      * JDBCHelper在整个程序运行声明周期中，只会创建一次实例
      * 在这一次创建实例的过程中，就会调用JDBCHelper()构造方法
      * 此时，就可以在构造方法中，去创建自己唯一的一个数据库连接池
-     *
      */
     private JDBCHelper() {
         int datasourceSize = ConfigurationManager.getInteger(Constants.DBC_DATASOURCE_SIZE);
@@ -127,11 +125,12 @@ public class JDBCHelper {
 
     /**
      * 执行查询SQL语句
+     *
      * @param sql
      * @param params
      * @param callback
      */
-    public void executeQuery(String sql,Object[] params,QueryCallback callback){
+    public void executeQuery(String sql, Object[] params, QueryCallback callback) {
         Connection conn = null;
         PreparedStatement pstmt = null;
         ResultSet rs = null;
@@ -140,8 +139,8 @@ public class JDBCHelper {
             conn = getConnection();
             pstmt = conn.prepareStatement(sql);
 
-            if(params != null && params.length > 0) {
-                for(int i = 0; i < params.length; i++) {
+            if (params != null && params.length > 0) {
+                for (int i = 0; i < params.length; i++) {
                     pstmt.setObject(i + 1, params[i]);
                 }
             }
@@ -151,23 +150,23 @@ public class JDBCHelper {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            if(conn != null) {
+            if (conn != null) {
                 datasource.push(conn);
             }
         }
     }
 
 
-
     /**
      * 静态内部类：查询回调接口
-     * @author Administrator
      *
+     * @author Administrator
      */
-    public static interface QueryCallback{
+    public static interface QueryCallback {
 
         /**
          * 处理查询结果
+         *
          * @param rs
          * @throws Exception
          */

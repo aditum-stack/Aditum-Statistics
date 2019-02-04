@@ -1,7 +1,7 @@
 package com.ten.aditum.statistics.scalautils
 
-import com.tosit.project.conf.ConfigurationManager
-import com.tosit.project.constants.Constants
+import com.ten.aditum.statistics.conf.ConfigurationManager
+import com.ten.aditum.statistics.constants.Constants
 import org.apache.spark.SparkContext
 import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.sql.types._

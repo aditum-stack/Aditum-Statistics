@@ -1,7 +1,7 @@
 package com.ten.aditum.statistics.dao.factory;
 
-import com.tosit.project.dao.ITaskDAO;
-import com.tosit.project.dao.impl.TaskDAOImpl;
+import com.ten.aditum.statistics.dao.ITaskDAO;
+import com.ten.aditum.statistics.dao.impl.TaskDAOImpl;
 
 /**
  * 数据访问对象工厂类
