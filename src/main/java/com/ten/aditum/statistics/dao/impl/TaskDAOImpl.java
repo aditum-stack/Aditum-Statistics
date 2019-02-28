@@ -1,24 +1,17 @@
 package com.ten.aditum.statistics.dao.impl;
 
-/**
- * 配置加载管理类
- * <p>
- * Created by Wanghan on 2017/3/11.
- * Copyright © Wanghan SCU. All Rights Reserved
- */
-
 import com.ten.aditum.statistics.dao.ITaskDAO;
 import com.ten.aditum.statistics.domain.Task;
 import com.ten.aditum.statistics.jdbc.JDBCHelper;
 
-import java.sql.ResultSet;
-
+/**
+ * 配置加载管理类
+ */
 public class TaskDAOImpl implements ITaskDAO {
     /**
      * 构造并返回TaskDAO实例
      *
      * @param taskId
-     * @return
      */
     @Override
     public Task findById(long taskId) {

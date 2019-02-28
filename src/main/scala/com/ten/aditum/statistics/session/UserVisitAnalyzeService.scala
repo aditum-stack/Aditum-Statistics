@@ -16,30 +16,34 @@ import org.json.JSONObject
 
 /**
   * 用户访问分析类
-  * <p>
-  * Created by Wanghan on 2017/3/11.
-  * Copyright © Wanghan SCU. All Rights Reserved
   */
 object UserVisitAnalyzeService {
+
   def main(args: Array[String]): Unit = {
     // 初始化spark环境
     val context = InitUnits.initSparkContext()
     val sc = context._1
     val sQLContext = context._2
+
     // 加载本地session访问日志测试数据
     SparkUtils.loadLocalTestDataToTmpTable(sc, sQLContext)
+
     // 创建DAO组件,DAO组件是用来操作数据库的
-    val taskDao = DAOFactory.getTaskDAO()
+    val taskDao = DAOFactory.getTaskDAO
+
     // 通过任务常量名来获取任务ID,并将java.lang.Long转成scala.Long
     val taskId = ParamUtils.getTaskIdFromArgs(args, Constants.SPARK_LOCAL_SESSION_TASKID).longValue()
     val task = if (taskId > 0) taskDao.findById(taskId) else null
+
     // 抛出task异常
     if (task == null) {
-      throw new TaskException("Can't find task by id: " + taskId);
+      throw new TaskException("Can't find task by id: " + taskId)
     }
+
     // 获取任务参数
     val taskParam = new JSONObject(task.getTaskParam)
     println(taskParam)
+
     // 测试json
     // val param1 = new JSONObject("{\"startDate\":[\"2017-03-06\"],\"endDate\":[\"2017-03-06\"],\"startAge\":[\"40\"],\"endAge\":[\"42\"],\"citys\":[\"city14\"],\"searchWords\":[\"小米5\"]}")
 

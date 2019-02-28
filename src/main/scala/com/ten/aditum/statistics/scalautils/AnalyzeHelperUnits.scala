@@ -9,17 +9,11 @@ import org.json.JSONObject
 
 /**
   * 辅助数据分析工具对象
-  *
-  * Created by Wanghan on 2017/3/11.
-  * Copyright © Wanghan SCU. All Rights Reserved
   */
 object AnalyzeHelperUnits {
 
   /**
     * 根据用户需求，编辑sql查询语句
-    *
-    * @param json
-    * @return
     */
   def getSQL(json: JSONObject): (String, String) = {
     // 解析json值，获得用户的查询参数

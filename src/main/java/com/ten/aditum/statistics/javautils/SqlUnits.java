@@ -2,18 +2,11 @@ package com.ten.aditum.statistics.javautils;
 
 /**
  * sql语句工具类
- * <p>
- * Created by Wanghan on 2017/3/13.
- * Copyright © Wanghan SCU. All Rights Reserved
  */
 public class SqlUnits {
 
     /**
      * 拼接sql查询语句
-     *
-     * @param totalSql
-     * @param currentSql
-     * @return
      */
     public static String concatSQL(String totalSql, String currentSql) {
         StringBuilder sqlBuilder = new StringBuilder(currentSql);
@@ -50,9 +43,6 @@ public class SqlUnits {
 
     /**
      * 去除sql查询语句行首行尾空格
-     *
-     * @param sql
-     * @return
      */
     public static String trimSpace(String sql) {
         //  去除行尾空格

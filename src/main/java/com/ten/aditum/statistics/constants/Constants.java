@@ -2,22 +2,27 @@ package com.ten.aditum.statistics.constants;
 
 /**
  * 配置常量接口类
- * <p>
- * Created by Wanghan on 2017/3/11.
- * Copyright © Wanghan SCU. All Rights Reserved
  */
 
 public interface Constants {
-
+    /**
+     * spark
+     */
     String SPARK_APP_NAME_SESSION = "UserVisitSessionAnalyzeSpark";
     String SPARK_MASTER = "local[4]";
     String SPARK_LOCAL = "spark.local";
     String SPARK_LOCAL_SESSION_TASKID = "spark.local.taskid.session";
 
+    /**
+     * table
+     */
     String TABLE_USER_VISIT_ACTION = "user_visit_action";
     String TABLE_USER_INFO = "user_info";
     String TABLE_PRODUCT_INFO = "product_info";
 
+    /**
+     * field
+     */
     String FIELD_SESSION_ID = "session_id";
     String FIELD_SEARCH_KEYWORDS = "searchKeyWords";
     String FIELD_CLICK_CATEGORY_IDS = "clickCategoryIds";
@@ -28,6 +33,9 @@ public interface Constants {
     String FIELD_STEP_LENGTH = "stepLength";
     String FIELD_AGE = "age";
 
+    /**
+     * jdbc
+     */
     String JDBC_URL = "jdbc.url";
     String JDBC_USER = "jdbc.user";
     String JDBC_DRIVER = "jdbc.driver";
@@ -38,6 +46,9 @@ public interface Constants {
 
     String DBC_DATASOURCE_SIZE = "jdbc.datasource.size";
 
+    /**
+     * path
+     */
     String LOCAL_SESSION_DATA_PATH = "spark.local.session.data.path";
     String LOCAL_USER_DATA_PATH = "spark.local.user.data.path";
     String LOCAL_PRODUCT_DATA_PATH = "spark.local.product.data.path";
