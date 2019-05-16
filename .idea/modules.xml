@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://D:/scala/.idea/modules/scala.iml" filepath="D:/scala/.idea/modules/scala.iml" />
-      <module fileurl="file://D:/scala/.idea/modules/scala-build.iml" filepath="D:/scala/.idea/modules/scala-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/statistics.iml" filepath="$PROJECT_DIR$/.idea/modules/statistics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/statistics-build.iml" filepath="$PROJECT_DIR$/.idea/modules/statistics-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statistics.iml" filepath="$PROJECT_DIR$/statistics.iml" />
     </modules>
   </component>
 </project>

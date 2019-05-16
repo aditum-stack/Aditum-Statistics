@@ -1,8 +1,8 @@
 package com.ten.aditum.statistics.session
 
-import com.ten.aditum.statistics.constants.Constants
-import com.ten.aditum.statistics.exception.StringSepatorException
-import com.ten.aditum.statistics.javautils.StringUtils
+import com.ten.aditum.statistics.spark.constants.Constants
+import com.ten.aditum.statistics.spark.exception.StringSepatorException
+import com.ten.aditum.statistics.spark.javautils.StringUtils
 import org.apache.spark.AccumulatorParam
 
 /**

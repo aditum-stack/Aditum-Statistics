@@ -3,10 +3,10 @@ package com.ten.aditum.statistics.session
 import java.text.SimpleDateFormat
 import java.util.Date
 
-import com.ten.aditum.statistics.constants.Constants
-import com.ten.aditum.statistics.dao.factory.DAOFactory
-import com.ten.aditum.statistics.exception.TaskException
-import com.ten.aditum.statistics.javautils.{ParamUtils, StringUtils}
+import com.ten.aditum.statistics.spark.constants.Constants
+import com.ten.aditum.statistics.spark.dao.factory.DAOFactory
+import com.ten.aditum.statistics.spark.exception.TaskException
+import com.ten.aditum.statistics.spark.javautils.{ParamUtils, StringUtils}
 import com.ten.aditum.statistics.scalautils.{AnalyzeHelperUnits, InitUnits, SparkUtils}
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD

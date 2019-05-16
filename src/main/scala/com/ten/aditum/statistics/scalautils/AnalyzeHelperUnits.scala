@@ -1,7 +1,7 @@
 package com.ten.aditum.statistics.scalautils
 
-import com.ten.aditum.statistics.constants.Constants
-import com.ten.aditum.statistics.javautils.{ParamUtils, SqlUnits}
+import com.ten.aditum.statistics.spark.constants.Constants
+import com.ten.aditum.statistics.spark.javautils.{ParamUtils, SqlUnits}
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{Row, SQLContext}
 import org.json.JSONObject
