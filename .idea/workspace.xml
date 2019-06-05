@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25a0e7e2-f413-4dab-82c6-0783d6a2e14b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/input/service_log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/hadoop/MapReduceStatisticsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/hadoop/mapreduce/WordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/hadoop/mapreduce/WordcountMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/hadoop/mapreduce/WordcountReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/AditumRun.log.2019-06-05.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/BasicDataService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/BasicTableService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/PersonasPortraitService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/PersonasService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/service_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/part-r-00000" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,6 +31,23 @@
     <projectState path="D:/scala">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scala" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
@@ -106,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordCount.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordCount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/hadoop/mapreduce/WordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="326">
+              <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,18 +132,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part-r-00000" pinned="false" current-in-tab="false">
+      <file leaf-file-name="part-r-00000" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/output/part-r-00000">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="service_log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input/service_log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="250">
+              <caret line="92697" lean-forward="true" selection-start-line="92697" selection-end-line="92697" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AditumRun.log.2019-06-05.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input/AditumRun.log.2019-06-05.log">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -539,7 +553,7 @@
       <workItem from="1559578641065" duration="2240000" />
       <workItem from="1559629874039" duration="1844000" />
       <workItem from="1559708858464" duration="951000" />
-      <workItem from="1559717418185" duration="5147000" />
+      <workItem from="1559717418185" duration="6910000" />
     </task>
     <task id="LOCAL-00001" summary="version1.0.0&#10;  --init">
       <created>1533695136635</created>
@@ -590,18 +604,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559719091431</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Hadoop测试">
+      <created>1559727960252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559727960252</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43959000" />
+    <option name="totallyTimeSpent" value="45722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="sbt" order="4" />
+      <window_info anchor="right" id="sbt" order="4" weight="0.3299595" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -620,7 +641,7 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27051672" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27051672" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32659933" />
@@ -653,16 +674,10 @@
     <MESSAGE value="local spark env" />
     <MESSAGE value="refactor" />
     <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+    <MESSAGE value="Hadoop测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hadoop测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/session/SessionAggAccumulator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/scalautils/SparkUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -948,16 +963,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/input/AditumRun.log.2019-06-05.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/hadoop/mapreduce/WordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="326">
+          <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="92697" lean-forward="true" selection-start-line="92697" selection-end-line="92697" />
         </state>
       </provider>
     </entry>
