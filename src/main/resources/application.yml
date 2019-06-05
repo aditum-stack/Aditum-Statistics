@@ -2,7 +2,7 @@ server:
   tomcat:
     max-threads: 800
     uri-encoding: UTF-8
-  port: 9006
+  port: 9004
 
 spring:
   # 设置数据库访问信息
@@ -16,4 +16,4 @@ spring:
 
 mybatis:
   mapperLocations: classpath*:mapper/*.xml
-  typeAliasesPackage: com.ten.aditum.back.entity
+  typeAliasesPackage: com.ten.aditum.statistics.entity
