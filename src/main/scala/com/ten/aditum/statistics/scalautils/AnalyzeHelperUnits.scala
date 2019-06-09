@@ -100,7 +100,6 @@ object AnalyzeHelperUnits {
       sqlUserVisitAction = SqlUnits.concatSQL(sqlUserVisitAction, currentSql)
     }
 
-    // 如果有点击品类限定
     if (categoryIds != null) {
       val iterator = categoryIds.iterator
       var currentSql: String = ""

@@ -3,8 +3,8 @@ package com.ten.aditum.statistics.scalautils
 import com.ten.aditum.statistics.spark.conf.ConfigurationManager
 import com.ten.aditum.statistics.spark.constants.Constants
 import org.apache.spark.SparkContext
-import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.sql.types._
+import org.apache.spark.sql.{Row, SQLContext}
 
 
 object SparkUtils {
@@ -14,8 +14,6 @@ object SparkUtils {
     */
   def loadLocalTestDataToTmpTable(sc: SparkContext, sqlContext: SQLContext): Unit = {
 
-    //读入用户session日志数据并注册为临时表
-    //首先指定临时表的Schema
     val sessionschema = StructType(
       List(
         StructField("date", StringType, true),
@@ -71,8 +69,6 @@ object SparkUtils {
     //注册用户信息临时表
     userDataFrame.registerTempTable(Constants.TABLE_USER_INFO)
 
-
-    //定义商品数据schema
     val productchema = StructType(
       List(
         StructField("product_id", LongType, true),
@@ -85,7 +81,6 @@ object SparkUtils {
     val productRDD = sc.textFile(product_path).map(_.split(" "))
     val productrowRdd = userRDD.map(u => Row(u(0).toLong, u(1).trim, u(2).trim))
     val productDataFrame = sqlContext.createDataFrame(productrowRdd, productchema)
-    //注册用户信息临时表
     productDataFrame.registerTempTable(Constants.TABLE_PRODUCT_INFO)
 
 

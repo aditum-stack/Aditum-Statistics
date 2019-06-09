@@ -3,9 +3,9 @@ package com.ten.aditum.statistics.scalautils
 import com.ten.aditum.statistics.spark.conf.ConfigurationManager
 import com.ten.aditum.statistics.spark.constants.Constants
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.sql.hive.HiveContext
+import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   * 初始化spark环境工具对象

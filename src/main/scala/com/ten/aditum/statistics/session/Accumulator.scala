@@ -1,11 +1,10 @@
 package com.ten.aditum.statistics.session
 
 import com.ten.aditum.statistics.spark.constants.Constants
-import com.ten.aditum.statistics.spark.exception.StringSepatorException
 import com.ten.aditum.statistics.spark.javautils.StringUtils
 import org.apache.spark.AccumulatorParam
 
-object SessionAggAccumulator extends AccumulatorParam[String] {
+object Accumulator extends AccumulatorParam[String] {
   private val INITIAL_VALUE: String = Constants.SESSION_COUNT + "=0" + Constants.VALUE_SEPARATOR +
     Constants.TIME_PERIOD_1s_3s + "=0" + Constants.VALUE_SEPARATOR +
     Constants.TIME_PERIOD_4s_6s + "=0" + Constants.VALUE_SEPARATOR +
@@ -23,24 +22,10 @@ object SessionAggAccumulator extends AccumulatorParam[String] {
     Constants.STEP_PERIOD_30_60 + "=0" + Constants.VALUE_SEPARATOR +
     Constants.STEP_PERIOD_60 + "=0"
 
-  /**
-    * zero方法，其实主要用于数据的初始化
-    * 那么，我们这里，就返回一个值，就是初始化中，所有范围区间的数量，多少0,
-    * 各个范围区间的统计数量的拼接，还是采用|分割。
-    *
-    * @param initialValue 初始化数据
-    * @return
-    */
   override def zero(initialValue: String): String = {
     INITIAL_VALUE
   }
 
-  /**
-    * 更新计数器，在r1中，找到r2对应的value，累加1，然后再更新回连接串里面去
-    *
-    * @param r1 初始化的那个连接串
-    * @param r2 遍历session的时候，判断出某个session对应的区间,对应的连接串
-    */
   override def addInPlace(r1: String, r2: String): String = {
     if (r1 == "")
       r2
