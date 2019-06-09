@@ -9,9 +9,6 @@ import org.apache.spark.sql.hive.HiveContext
 
 /**
   * 初始化spark环境工具对象
-  *
-  * Created by Wanghan on 2017/3/12.
-  * Copyright © Wanghan SCU. All Rights Reserved
   */
 object InitUnits {
 

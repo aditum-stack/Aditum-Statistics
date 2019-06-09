@@ -11,9 +11,6 @@ object SparkUtils {
 
   /**
     * 加载本地测试数据到注册表
-    *
-    * @param sc
-    * @param sqlContext
     */
   def loadLocalTestDataToTmpTable(sc: SparkContext, sqlContext: SQLContext): Unit = {
 
