@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25a0e7e2-f413-4dab-82c6-0783d6a2e14b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/entity/DeviceAccessMinuteHeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/mapper/DeviceAccessMinuteHeatDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/BasicDataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/BasicTableService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/DeviceAccessMinuteHeatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/PersonasPortraitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/PersonasService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/BaseAnalysor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/base/CommunityAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/device/DeviceCountAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/device/DeviceHeatAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/device/DeviceLogAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/device/DeviceMinuteHeatAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/device/DeviceTotalAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/person/AccessAddressAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/person/AccessIntervalAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/person/AccessTimeAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/vo/BasicCountData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/vo/BasicDeviceCountData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/vo/BasicDeviceWeekendData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/vo/BasicLabelData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/vo/Personas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeviceAccessMinuteHeatDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/hadoop/mapreduce/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/hadoop/mapreduce/WordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/mapper/DeviceAccessCountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/mapper/DeviceAccessCountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/mapper/DeviceAccessHeatDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/mapper/DeviceAccessHeatDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/DeviceAccessCountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/DeviceAccessCountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/DeviceAccessHeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/DeviceAccessHeatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AccessAddressDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AccessAddressDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AccessIntervalDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AccessIntervalDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AccessTimeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AccessTimeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CommunityDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommunityDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/DeviceAccessCountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeviceAccessCountDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/DeviceAccessHeatDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeviceAccessHeatDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/DeviceAccessLogDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeviceAccessLogDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/DeviceAccessTotalDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeviceAccessTotalDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/DeviceDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeviceDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/PersonDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PersonDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/PersonasLabelDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PersonasLabelDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/PersonasPortraitDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PersonasPortraitDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/RecordDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RecordDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,38 +46,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="spark.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spark.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnalyzeHelperUnits.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/scalautils/AnalyzeHelperUnits.scala">
+      <file leaf-file-name="AditumStatisticsApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/AditumStatisticsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#442#443#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionAggAccumulator.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/session/SessionAggAccumulator.scala">
+      <file leaf-file-name="RecordDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RecordDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserVisitAnalyzeService.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/session/UserVisitAnalyzeService.scala">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="378">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceAccessTotalService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/DeviceAccessTotalService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -128,41 +89,26 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+            <state relative-caret-position="2625">
+              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicTableService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/BasicTableService.java">
+      <file leaf-file-name="UserVisitAnalyzeService.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/session/UserVisitAnalyzeService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+            <state relative-caret-position="581">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/controller/BaseController.java">
+      <file leaf-file-name="InitUnits.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/scalautils/InitUnits.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceAccessHeatService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/DeviceAccessHeatService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="186">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -176,9 +122,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccessAddressDao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AccessAddressDao.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="BaseAnalysor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/BaseAnalysor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-315">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/util/TimeGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -209,8 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/Stytle.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/ScalaStyle.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/StatisticsStart.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/StartApplication.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/StatisticsApplication.scala" />
@@ -228,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/scalautils/AnalyzeHelperUnits.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/jdbc/JDBCHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/conf/ConfigurationManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/constants/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/schedule/Analyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/entity/DeviceAccessTotal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/DeviceAccessTotalService.java" />
@@ -240,14 +196,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/spark/javautils/ValidUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/spark/conf/ConfigurationManager.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spark.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/entity/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/mapper/CommunityDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/mapper/AccessAddressDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/mapper/AccessIntervalDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AccessAddressDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/util/UidGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/hadoop/mapreduce/WordcountMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/hadoop/mapreduce/WordcountReduce.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/hadoop/mapreduce/WordCount.java" />
@@ -258,8 +211,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/vo/BasicDeviceCountData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/DeviceAccessHeatService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/BasicTableService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/BasicTableService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/util/UidGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/constants/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/constants/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/RecordDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -342,7 +301,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="statistics" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Aditum-Statistics" type="b2602c69:ProjectViewProjectNode" />
@@ -468,6 +427,14 @@
               <item name="Aditum-Statistics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aditum-Statistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aditum-Statistics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -524,11 +491,11 @@
       <recent name="com.ten.aditum.statistics" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\59682\Desktop\Aditum-Statistics\src\main\java\com\ten\aditum\statistics\util" />
       <recent name="C:\Users\59682\Desktop\Aditum-Statistics\src\main\resources\mapper" />
       <recent name="C:\Users\59682\Desktop\Aditum-Statistics\src\main\resources" />
       <recent name="C:\Users\59682\Desktop\Aditum-Statistics\src\main\java\com\ten\aditum\statistics" />
       <recent name="C:\Users\59682\Desktop\Aditum-Statistics\src\main\java\com\ten\aditum\statistics\service" />
-      <recent name="C:\Users\59682\Desktop\Aditum-Statistics\src\main\java\com\ten\aditum\statistics\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -687,7 +654,7 @@
       <workItem from="1559629874039" duration="1844000" />
       <workItem from="1559708858464" duration="951000" />
       <workItem from="1559717418185" duration="7130000" />
-      <workItem from="1560060819124" duration="4479000" />
+      <workItem from="1560060819124" duration="4840000" />
     </task>
     <task id="LOCAL-00001" summary="version1.0.0&#10;  --init">
       <created>1533695136635</created>
@@ -759,14 +726,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559732653573</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="数据分析">
+      <created>1560087499781</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560087499781</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50421000" />
+    <option name="totallyTimeSpent" value="50782000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -790,7 +764,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27051672" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8404727" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32659933" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24426451" />
@@ -824,46 +798,10 @@
     <MESSAGE value="更新" />
     <MESSAGE value="Hadoop测试" />
     <MESSAGE value="Hadoop日志分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hadoop日志分析" />
+    <MESSAGE value="数据分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据分析" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/entity/DeviceAccessCount.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/entity/AccessInterval.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/entity/AccessAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/entity/Device.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/entity/Community.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/entity/PersonasLabel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/entity/DeviceAccessHeat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/mapper/DeviceAccessTotalDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -909,9 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/PersonasPortraitService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/AccessAddressService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -927,13 +862,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/DeviceAccessMinuteHeatService.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/DeviceAccessTotalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/PersonService.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -955,12 +883,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/person/AccessTimeAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/base/CommunityAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/BaseAnalysor.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/person/AccessAddressAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -973,13 +895,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/device/DeviceHeatAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/device/DeviceMinuteHeatAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/person/AccessIntervalAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/device/DeviceTotalAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/vo/Personas.java">
@@ -1010,13 +926,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AccessAddressDao.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spark.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1038,35 +947,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/session/UserVisitAnalyzeService.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/BasicTableService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="231">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/device/DeviceMinuteHeatAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/util/UidGenerator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/BasicDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/PersonasPortraitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/base/CommunityAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/device/DeviceTotalAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/statistic/BaseAnalysor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/util/TimeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/AditumStatisticsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RecordDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+        <state relative-caret-position="2625">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/BasicTableService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/session/UserVisitAnalyzeService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        <state relative-caret-position="581">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/controller/BaseController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ten/aditum/statistics/scalautils/InitUnits.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="186">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ten/aditum/statistics/service/DeviceAccessTotalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
